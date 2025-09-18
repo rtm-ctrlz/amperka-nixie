@@ -1,28 +1,25 @@
 {
   "version": 1,
-  "author": "OLGA MARIA CALIXTRO KRUPP",
+  "author": "Ilia Urvachev <rtm@ctrlz.ru>",
   "editor": "wokwi",
   "parts": [
     {
       "type": "wokwi-breadboard-half",
       "id": "bb2",
       "top": 438.6,
-      "left": -256.4,
-      "attrs": {}
+      "left": -256.4
     },
     {
       "type": "wokwi-arduino-uno",
       "id": "uno",
       "top": 77.4,
-      "left": -327,
-      "attrs": {}
+      "left": -327
     },
     {
       "type": "wokwi-ds1307",
       "id": "rtc1",
       "top": 292.2,
-      "left": 76.9,
-      "attrs": {}
+      "left": 76.9
     },
     {
       "type": "wokwi-pushbutton",
@@ -33,7 +30,8 @@
       "attrs": {
         "color": "green",
         "xray": "1",
-        "bounce": "0"
+        "bounce": "0",
+        "key": "1"
       }
     },
     {
@@ -44,8 +42,8 @@
       "rotate": 90,
       "attrs": {
         "color": "blue",
-        "xray": "",
-        "bounce": "0"
+        "bounce": "0",
+        "key": "2"
       }
     },
     {
@@ -56,8 +54,8 @@
       "rotate": 270,
       "attrs": {
         "color": "yellow",
-        "xray": "",
-        "bounce": "0"
+        "bounce": "0",
+        "key": "3"
       }
     },
     {
@@ -68,8 +66,8 @@
       "rotate": 270,
       "attrs": {
         "color": "black",
-        "xray": "",
-        "bounce": "0"
+        "bounce": "0",
+        "key": "4"
       }
     },
     {
@@ -77,328 +75,287 @@
       "id": "rgb1",
       "top": -2.7,
       "left": -267.3,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb2",
       "top": -15.2,
       "left": -237.3,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb3",
       "top": -27.7,
       "left": -267.3,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb4",
       "top": -40.2,
       "left": -237.3,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb5",
       "top": -52.7,
       "left": -267.3,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb6",
       "top": -65.2,
       "left": -237.3,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb7",
       "top": -77.7,
       "left": -267.3,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb8",
       "top": -90.2,
       "left": -237.3,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb9",
       "top": -102.7,
       "left": -267.3,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb10",
       "top": -115.2,
       "left": -237.3,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb11",
       "top": -1.9,
       "left": -183.2,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb12",
       "top": -14.4,
       "left": -153.2,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb13",
       "top": -26.9,
       "left": -183.2,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb14",
       "top": -39.4,
       "left": -153.2,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb15",
       "top": -51.9,
       "left": -183.2,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb16",
       "top": -64.4,
       "left": -153.2,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb17",
       "top": -76.9,
       "left": -183.2,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb18",
       "top": -89.4,
       "left": -153.2,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb19",
       "top": -101.9,
       "left": -183.2,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb20",
       "top": -114.4,
       "left": -153.2,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb21",
       "top": -2.7,
       "left": -94.5,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb22",
       "top": -15.2,
       "left": -64.5,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb23",
       "top": -27.7,
       "left": -94.5,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb24",
       "top": -40.2,
       "left": -64.5,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb25",
       "top": -52.7,
       "left": -94.5,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb26",
       "top": -65.2,
       "left": -64.5,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb27",
       "top": -77.7,
       "left": -94.5,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb28",
       "top": -90.2,
       "left": -64.5,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb29",
       "top": -102.7,
       "left": -94.5,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb30",
       "top": -115.2,
       "left": -64.5,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb31",
       "top": -1.9,
       "left": -10.4,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb32",
       "top": -14.4,
       "left": 19.6,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb33",
       "top": -26.9,
       "left": -10.4,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb34",
       "top": -39.4,
       "left": 19.6,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb35",
       "top": -51.9,
       "left": -10.4,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb36",
       "top": -64.4,
       "left": 19.6,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb37",
       "top": -76.9,
       "left": -10.4,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb38",
       "top": -89.4,
       "left": 19.6,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb39",
       "top": -101.9,
       "left": -10.4,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb40",
       "top": -114.4,
       "left": 19.6,
-      "rotate": 90,
-      "attrs": {}
+      "rotate": 90
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb41",
       "top": 22.9,
       "left": -125.6,
-      "rotate": 180,
-      "attrs": {}
+      "rotate": 180
     }
   ],
   "connections": [
@@ -874,6 +831,38 @@
       ]
     ],
     [
+      "bb2:13t.b",
+      "bb2:1t.b",
+      "green",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "bb2:14t.c",
+      "bb2:10t.c",
+      "green",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "bb2:15t.c",
+      "bb2:19t.c",
+      "green",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "bb2:16t.b",
+      "bb2:28t.b",
+      "green",
+      [
+        "v0"
+      ]
+    ],
+    [
       "btn5:1.l",
       "bb2:1b.i",
       "",
@@ -999,38 +988,6 @@
       "",
       [
         "$bb"
-      ]
-    ],
-    [
-      "bb2:13t.b",
-      "bb2:1t.b",
-      "green",
-      [
-        "v0"
-      ]
-    ],
-    [
-      "bb2:14t.c",
-      "bb2:10t.c",
-      "green",
-      [
-        "v0"
-      ]
-    ],
-    [
-      "bb2:15t.c",
-      "bb2:19t.c",
-      "green",
-      [
-        "v0"
-      ]
-    ],
-    [
-      "bb2:16t.b",
-      "bb2:28t.b",
-      "green",
-      [
-        "v0"
       ]
     ]
   ],

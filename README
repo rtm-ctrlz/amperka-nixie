@@ -2,3 +2,9 @@
 
 https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide
 https://marketplace.visualstudio.com/items?itemName=Wokwi.wokwi-vscode
+
+
+# Libs included
+
+https://github.com/amperka/TroykaButton
+https://github.com/amperka/TroykaRTC
